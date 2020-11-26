@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Orrin">
+        <meta name="description" content="Cat or Dog Person Quiz">
+        <meta name="keywords" content="Cats, Dogs, Quiz">
+        <title>Quiz: Cat or Dog Person</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" 
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="catsordogs.js" defer></script>
+    </head>
+    <body>
+        <div class="intro page0">
+            <h1>Are you a cat person or a dog person?</h1>
+            <button type="button" id="start">Start Quiz</button>
+        </div>
+        <div class="page page1">
+            <h2>Given the choice, all day I would:</h2>
+            <button type="button" id="lazy">Be lazy</button>
+            <button type="button" id="productive">Be productive</button>
+            <div class="questions-answered"><span></span><i class="fas fa-question"></i></div>
+        </div>
+        <div class="page page2">
+            <h2>The dish I would prefer from the following would have:</h2>
+            <button type="button" id="fish">Fish sticks</button>
+            <button type="button" id="chicken">Chicken wings</button>
+            <div class="questions-answered"><span></span><i class="fas fa-question"></i></div>
+        </div>
+        <div class="page page3">
+            <h2>If I had some spare time, I would:</h2>
+            <button type="button" id="sleep">Take a nap</button>
+            <button type="button" id="exercise">Exercise</button>
+            <div class="questions-answered"><span></span><i class="fas fa-question"></i></div>
+        </div>
+        <div class="page page4">
+            <h2>I would describe myself as:</h2>
+            <button type="button" id="quiet">Quiet and observing</button>
+            <button type="button" id="loud">Loud and energetic</button>
+            <div class="questions-answered"><span></span><i class="fas fa-question"></i></div>
+        </div>
+        <div class="page page5">
+            <h2>Between a night owl or an early bird, I would say I'm more of a:</h2>
+            <button type="button" id="night">Night owl</button>
+            <button type="button" id="day">Early bird</button>
+            <div class="questions-answered"><span></span><i class="fas fa-question"></i></div>
+        </div>
+        <div class="page page6">
+            <h2>If I had to exercise, I would:</h2>
+            <button type="button" id="climb">Go climbing</button>
+            <button type="button" id="run">Go for a run</button>
+            <div class="questions-answered"><span></span><i class="fas fa-question"></i></div>
+        </div>
+        <div class="page page7">
+            <h2>More often than not, I would prefer to stay:</h2>
+            <button type="button" id="indoors">Indoors</button>
+            <button type="button" id="outdoors">Outdoors</button>
+            <div class="questions-answered"><span></span><i class="fas fa-question"></i></div>
+        </div>
+        <div class="page page8">
+            <h2>Between agility and strength, I would choose:</h2>
+            <button type="button" id="agility">Agility</button>
+            <button type="button" id="strength">Strength</button>
+            <div class="questions-answered"><span></span><i class="fas fa-question"></i></div>
+        </div>
+        <div class="page page9">
+            <h2>I like:</h2>
+            <button type="button" id="cats">Cats more than dogs</button>
+            <button type="button" id="dogs">Dogs more than cats</button>
+            <div class="questions-answered"><span></span><i class="fas fa-question"></i></div>
+        </div>
+        <div class="page page10 results">
+            <h2>Congratulations! You are a <span></span> person!</h2>
+            <div class="percentages">
+                <div class="cat-percentage"><span></span><i class="fas fa-cat"></i></div>
+                <div class="dog-percentage"><span></span><i class="fas fa-dog"></i></div>
+                <div class="questions-answered"><span></span><i class="fas fa-question"></i></div>
+            </div>
+        </div>
+    </body>
+</html>
