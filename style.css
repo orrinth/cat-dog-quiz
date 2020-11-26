@@ -9,7 +9,7 @@ html, body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    background: linear-gradient(135deg, rgba(47, 79, 79, 0.2), rgba(47, 79, 79, 0.2)), linear-gradient(135deg, rgba(47, 79, 79, 0.2), rgba(47, 79, 79, 0.2)), url(cat2.jpg), url(dog2.jpg);
+    background: linear-gradient(135deg, rgba(47, 79, 79, 0.2), rgba(47, 79, 79, 0.2)), linear-gradient(135deg, rgba(47, 79, 79, 0.2), rgba(47, 79, 79, 0.2)), url(images/cat.jpg), url(images/dog.jpg);
     background-size: 50%;
     background-position: top left, bottom right;
     background-repeat: no-repeat;
